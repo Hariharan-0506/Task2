@@ -1,0 +1,92 @@
+li{
+    display: inline;
+    padding-left:50px;
+}
+p{
+    font-size: 25px;
+    margin: 20px,15px;
+    padding: 40px,30px,70px;
+    word-spacing: 25px;
+    text-align: left;
+    text-align:justify;
+}
+h1{
+    text-align: center;
+}
+.cls{
+    padding: 10px;
+    padding-left: 600px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    padding-left: 100px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column {
+    width: 100%;
+  }
+  .our{
+    display: flex;
+}
+.pro {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .our::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .pro {
+    width: 100%;
+  }
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
